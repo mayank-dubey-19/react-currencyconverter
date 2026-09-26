@@ -1,0 +1,34 @@
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding-left: 50px;
+}
+.container1{
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 12px;
+}
+.convertbtn{
+  height: 30px;
+  width: 280px;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 6px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  transition: transform 0.2s ease-in-out;
+}
+.convertbtn:hover{
+   transform: translateY(1.5px) scale(1.01);
+}
+.convertbtn:active{
+   transform: translateY(-1.5px) scale(1.01);
+}
